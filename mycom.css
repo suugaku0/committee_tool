@@ -1,0 +1,55 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height:150px;
+    background-color: rgb(120, 210, 255);
+    display: flex;
+}
+footer>.footercelect{
+    height: 150px;
+    width: 50%;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 3px 0px 3px;
+
+    cursor: pointer;
+}
+footer>.footercelect>h1{
+    text-align: center;
+    color: white;
+}
+dialog{
+    min-height:50%;
+    width: 50%;
+    border-radius: 16px;
+    border-style:none;
+    padding: 0px;
+}
+dialog>header{
+    width: 100%;
+    height: 48px;
+    background-color: gray;
+}
+.goal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.goal>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+}
+.goal>div>p{
+    margin: 0px;
+    font-size:64px;
+}
+.goal>div>#first{
+    text-align: left;
+}
+.goal>div>#second{
+    text-align: right;
+}

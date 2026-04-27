@@ -1,0 +1,64 @@
+.selectBtn {
+    height: 256px;
+    border-radius: 16px;
+    background-color: white;
+    border-color:rgb(0, 0, 255);
+    box-shadow: 6px 6px 0px 0px rgb(0, 0, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    transition: transform 0.3s ease;
+
+    cursor: pointer;
+}
+.top{
+    width: calc(100% - 20%);
+    height: 256px;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.other{
+    width:50%;
+}
+.container{
+    display: flex;
+
+    align-items: center;
+}
+.selectBtn>.title{
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+    color:blue;
+}
+.selectBtn:hover{
+    box-shadow : none;
+    border: 3px solid blue;
+}
+body {
+    background-color: white;
+    background: radial-gradient(circle, transparent 20%, white 20%, white 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, white 20%, white 80%, transparent 80%, transparent) 32.5px 32.5px, linear-gradient(rgba(0,0,255,0.3) 2.6px, transparent 2.6px) 0 -1.3px, linear-gradient(90deg, rgba(0,0,255,0.3) 2.6px, white 2.6px) -1.3px 0;
+    background-size: 65px 65px, 65px 65px, 32.5px 32.5px, 32.5px 32.5px;
+}
+.image{
+    max-width: 100%;
+
+    object-fit: contain;
+
+    width: 100%;
+    height:128px;
+    
+}
+.right{
+    margin-left: 30px;
+}
+.left{
+    margin-right:30px;
+}
+.hide{
+    display: none;
+}
